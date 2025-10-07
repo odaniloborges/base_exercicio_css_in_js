@@ -21,7 +21,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src",
-    "styled-components.d.ts"
+    "src"
   ]
 }
