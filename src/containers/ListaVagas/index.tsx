@@ -1,7 +1,11 @@
 import { useState } from 'react'
+
 import Vaga from '../../components/Vaga'
+
 import { VagasContainer } from './styles'
+
 import FormVagas from '../../components/FormVagas'
+
 type Vaga = {
   id: string
   titulo: string

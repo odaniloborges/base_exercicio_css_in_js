@@ -19,14 +19,17 @@ const FormVagas = ({ aoPesquisar }: Props) => {
   }
 
   return (
-    <FormStyle onSubmit={aoEnviarForm}>
+    <FormStyle as="form" onSubmit={aoEnviarForm}>
       <CampoStyle
+        as="input"
         placeholder="Front-end, fullstack, node, design"
         onChange={aoMudarCampo}
         type="search"
         value={termo}
       />
-      <BtnPesquisarStyle type="submit">Pesquisar</BtnPesquisarStyle>
+      <BtnPesquisarStyle as="button" type="submit">
+        Pesquisar
+      </BtnPesquisarStyle>
     </FormStyle>
   )
 }
